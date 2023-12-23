@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my_color_primary">#131522</color>
+    <color name="my_color_primary_dark">#131522</color>
+    <color name="my_color_accent">#262A35</color>
+    
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/my_color_primary</item>
+        <item name="colorPrimaryDark">@color/my_color_primary_dark</item>
+        <item name="colorAccent">@color/my_color_accent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:label">Tiêu đề mới</item>
+    </style>
+    
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.DayNight.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.DayNight" />
+
+    <!-- Ticket -->
+	<string name="contact_fragment_title">Contact us</string>
+	<string name="error_msg_invalid_email">Enter valid email address</string>
+	<string name="error_msg_invalid_message">Enter your message</string>
+	<string name="error_msg_invalid_name">Enter your full name</string>
+	<string name="request_attachment_generic_unknown_app">Unknown</string>
+	<string name="request_dialog_body_unsaved_changes">Going back will delete your message. Are you sure you want to delete it?</string>
+	<string name="request_dialog_button_label_cancel">Cancel</string>
+	<string name="request_dialog_button_label_delete">Delete</string>
+	<string name="request_dialog_title_unsaved_changes">Message not sent</string>
+	<string name="request_email_entry_hint">Email</string>
+	<string name="request_error_create_request">Failed to create request</string>
+	<string name="request_error_load_comments">Failed to load comments</string>
+	<string name="request_file_attachment_download_in_progress">File download in progress</string>
+	<string name="request_list_activity_title">My tickets</string>
+	<string name="request_list_empty_start_conversation">START A CONVERSATION</string>
+	<string name="request_list_empty_text">Conversations started from this app will be visible here.</string>
+	<string name="request_list_fragment_error_message">Failed to get tickets</string>
+	<string name="request_list_me">Me</string>
+	<string name="request_list_re">Re: %s</string>
+	<string name="request_list_ticket_closed">Ticket Closed</string>
+	<string name="request_menu_button_label_add_attachments">Add attachments</string>
+	<string name="request_menu_button_label_send">Send</string>
+	<string name="request_message_date_today">TODAY</string>
+	<string name="request_message_date_yesterday">YESTERDAY</string>
+	<string name="request_message_entry_hint">Message</string>
+	<string name="request_message_status_delivered">Delivered</string>
+	<string name="request_messages_status_error">Message failed. Tap to retry</string>
+	<string name="request_name_entry_hint">Name</string>
+	<string name="request_retry_dialog_delete_message">Delete message</string>
+	<string name="request_retry_dialog_retry">Retry sending</string>
+	<string name="request_system_message_closed_ticket">This conversation has been closed.</string>
+	<string name="request_toolbar_last_reply">Last reply %s</string>
+	<string name="request_write_a_message">Write a message</string>
+	<string name="zs_request_announce_comment_created_accessibility">Comment with text %s sent.</string>
+	<string name="zs_request_announce_comment_failed_accessibility">Unable to create comment with text %s.</string>
+	<string name="zs_request_announce_comments_loaded_accessibility">Comments loaded.</string>
+	<string name="zs_request_attachment_carousel_attachment_accessibility">Attached file with name %s.</string>
+	<string name="zs_request_attachment_carousel_remove_attachment_accessibility">Remove attachment with name %s.</string>
+	<string name="zs_request_attachment_indicator_accessibility">Select an attachment.</string>
+	<string name="zs_request_attachment_indicator_n_attachments_selected_accessibility">There are %d attachments selected.</string>
+	<string name="zs_request_attachment_indicator_no_attachments_selected_accessibility">There are no attachments selected.</string>
+	<string name="zs_request_attachment_indicator_one_attachments_selected_accessibility">There is one attachment selected.</string>
+	<string name="zs_request_list_content_load_failed_accessibility">Support tickets failed to load</string>
+	<string name="zs_request_list_content_loaded_accessibility">Support tickets loaded</string>
+	<string name="zs_request_list_content_loaded_empty_accessibility">No support tickets</string>
+	<string name="zs_request_list_content_loading_accessibility">Loading support tickets</string>
+	<string name="zs_request_message_agent_file_accessibility">Agent file attachment with name %s.</string>
+	<string name="zs_request_message_agent_image_accessibility">Agent image attachment with name %s.</string>
+	<string name="zs_request_message_agent_sent_accessibility">Sent by %1$s at %2$s.</string>
+	<string name="zs_request_message_agent_text_accessibility">Agent message %s.</string>
+	<string name="zs_request_message_user_error_accessibility">Failed to send. Tap for options.</string>
+	<string name="zs_request_message_user_file_accessibility">File with name %s.</string>
+	<string name="zs_request_message_user_image_accessibility">Image with name %s.</string>
+	<string name="zs_request_message_user_sent_accessibility">Sent by you at %s</string>
+	<string name="zs_request_message_user_text_accessibility">Message %s.</string>
+	<string name="zs_request_toolbar_accessibility">Last reply by %1$s at %2$s.</string>
+	<string name="ask_request_list_failed_request_message">Message failed</string>
+	<string name="zs_request_contact_option_leave_a_message">Leave a message</string>
+
+    <!-- Help Center -->
+    <string name="articles_list_fragment_error_message">Failed to get articles</string>
+	<string name="articles_list_fragment_no_articles_found">No articles found</string>
+	<string name="categories_list_fragment_error_message">Failed to get categories</string>
+	<string name="help_search_no_results_label">No results for</string>
+	<string name="help_see_all_articles_label">See all articles</string>
+	<string name="help_see_all_n_articles_label">See all %d articles</string>
+	<string name="sections_list_fragment_error_message">Failed to get sections</string>
+	<string name="support_activity_title">Support</string>
+	<string name="support_conversations_menu">Conversations</string>
+	<string name="view_article_attachments_error">Failed to fetch attachments</string>
+	<string name="view_article_vote_prompt">Was this article helpful?</string>
+	<string name="zs_help_center_content_loaded_accessibility">Help Center loaded</string>
+	<string name="zs_help_center_search_loaded_accessibility">Search results loaded</string>
+	<string name="zs_view_article_error">Failed to fetch article</string>
+	<string name="zs_view_article_loaded_accessibility">%s article loaded</string>
+	<string name="zs_view_article_vote_no_accessibility">No vote</string>
+	<string name="zs_view_article_vote_no_remove_accessibility">Remove yes vote</string>
+	<string name="zs_view_article_vote_yes_accessibility">Yes vote</string>
+	<string name="zs_view_article_vote_yes_remove_accessibility">Remove no vote</string>
+	<string name="zs_view_article_voted_failed_accessibility_announce">Vote failed</string>
+	<string name="zs_view_article_voted_no_accessibility_announce">Voted no</string>
+	<string name="zs_view_article_voted_yes_accessibility_announce">Voted yes</string>
+
+</resources>
